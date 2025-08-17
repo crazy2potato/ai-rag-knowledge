@@ -1,1 +1,5 @@
-/docs/
+/data/
+/.idea/
+/dev-tech-api/target/
+/dev-tech-app/target/
+/dev-tech-trigger/target/

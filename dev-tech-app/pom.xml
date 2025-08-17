@@ -24,28 +24,29 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
-            <version>0.8.1</version>
-            <type>pom</type>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>-->
+<!--            <version>0.8.1</version>-->
+<!--            <type>pom</type>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-tika-document-reader</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-tika-document-reader</artifactId>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-pgvector-store-spring-boot-starter</artifactId>
-            <version>0.8.1</version>
-            <type>pom</type>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.ai</groupId>-->
+<!--            <artifactId>spring-ai-pgvector-store-spring-boot-starter</artifactId>-->
+<!--            <version>0.8.1</version>-->
+<!--            <type>pom</type>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-ollama</artifactId>
+            <version>0.8.1</version>
         </dependency>
 
         <dependency>
