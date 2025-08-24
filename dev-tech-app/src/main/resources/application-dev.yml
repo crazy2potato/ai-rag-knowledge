@@ -31,8 +31,18 @@ spring:
       base-url: http://117.72.78.100:11434
       embedding:
         options:
-          num-batch: 512
+          num-batch: 768
         model: nomic-embed-text
+    openai:
+      base-url: https://www.dmxapi.cn/
+      api-key: sk-WAgoxZR0vn0EOKAihkK230luAV71H6eY3P4kAIxLDHKgz6cf
+      embedding:
+        options:
+          num-batch: 768
+        model: text-embedding-ada-002
+    rag:
+      embed: nomic-embed-text #nomic-embed-text、text-embedding-ada-002
+
 
 # Redis
 redis:
